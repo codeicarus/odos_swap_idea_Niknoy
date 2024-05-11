@@ -1,0 +1,346 @@
+{
+    "tokenMap": {
+        "0x0000000000000000000000000000000000000000": {
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "decimals": 18,
+            "assetId": "eth",
+            "assetType": "eth",
+            "protocolId": "native",
+            "isRebasing": false
+        },
+        "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f": {
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "assetId": "weth",
+            "assetType": "eth",
+            "protocolId": null,
+            "isRebasing": false
+        },
+        "0x176211869cA2b568f2A7D4EE941E073a821EE1ff": {
+            "name": "Bridged USDC",
+            "symbol": "USDC.e",
+            "decimals": 6,
+            "assetId": "usdc",
+            "assetType": "usd",
+            "protocolId": "circle",
+            "isRebasing": false
+        },
+        "0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5": {
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "decimals": 18,
+            "assetId": "dai",
+            "assetType": "usd",
+            "protocolId": "maker-dao",
+            "isRebasing": false
+        },
+        "0xA219439258ca9da29E9Cc4cE5596924745e12B93": {
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "assetId": "usdt",
+            "assetType": "usd",
+            "protocolId": "tether",
+            "isRebasing": false
+        },
+        "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4": {
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "assetId": "wbtc",
+            "assetType": "btc",
+            "protocolId": null,
+            "isRebasing": false
+        },
+        "0xB5beDd42000b71FddE22D3eE8a79Bd49A568fC8F": {
+            "name": "Wrapped liquid staked Ether 2.0",
+            "symbol": "wstETH",
+            "decimals": 18,
+            "assetId": "wsteth",
+            "assetType": "eth",
+            "protocolId": "lido",
+            "isRebasing": false
+        },
+        "0x265B25e22bcd7f10a5bD6E6410F10537Cc7567e8": {
+            "name": "Matic Token",
+            "symbol": "MATIC",
+            "decimals": 18,
+            "assetId": "matic",
+            "assetType": "matic",
+            "protocolId": "polygon",
+            "isRebasing": false
+        },
+        "0x5471ea8f739dd37E9B81Be9c5c77754D8AA953E4": {
+            "name": "Avalanche Token",
+            "symbol": "AVAX",
+            "decimals": 18,
+            "assetId": "avax",
+            "assetType": "avax",
+            "protocolId": "avalanche",
+            "isRebasing": false
+        },
+        "0xf5C6825015280CdfD0b56903F9F8B5A2233476F5": {
+            "name": "BNB",
+            "symbol": "BNB",
+            "decimals": 18,
+            "assetId": "bnb",
+            "assetType": "bnb",
+            "protocolId": "binance",
+            "isRebasing": false
+        },
+        "0x7d43AABC515C356145049227CeE54B608342c0ad": {
+            "name": "Binance USD",
+            "symbol": "BUSD",
+            "decimals": 18,
+            "assetId": "busd",
+            "assetType": "usd",
+            "protocolId": "binance",
+            "isRebasing": false
+        },
+        "0xEB466342C4d449BC9f53A865D5Cb90586f405215": {
+            "name": "Axelar Wrapped USDC",
+            "symbol": "axlUSDC",
+            "decimals": 6,
+            "assetId": "axlusdc",
+            "assetType": "usd",
+            "protocolId": "axelar",
+            "isRebasing": false
+        },
+        "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6": {
+            "name": "Axelar Wrapped USDT",
+            "symbol": "axlUSDT",
+            "decimals": 6,
+            "assetId": "axlusdt",
+            "assetType": "usd",
+            "protocolId": "axelar",
+            "isRebasing": false
+        },
+        "0x0D1E753a25eBda689453309112904807625bEFBe": {
+            "name": "PancakeSwap Token",
+            "symbol": "Cake",
+            "decimals": 18,
+            "assetId": "cake",
+            "assetType": "cake",
+            "protocolId": "pancakeswap",
+            "isRebasing": false
+        },
+        "0x1a51b19CE03dbE0Cb44C1528E34a7EDD7771E9Af": {
+            "name": "Lynex",
+            "symbol": "LYNX",
+            "decimals": 18,
+            "assetId": "lynx",
+            "assetType": "lynx",
+            "protocolId": "lynex",
+            "isRebasing": false
+        },
+        "0x9201f3b9DfAB7C13Cd659ac5695D12D605B5F1e6": {
+            "name": "ECP",
+            "symbol": "ECP",
+            "decimals": 18,
+            "assetId": "ecp",
+            "assetType": "ecp",
+            "protocolId": "echodex",
+            "isRebasing": false
+        },
+        "0xf3B001D64C656e30a62fbaacA003B1336b4ce12A": {
+            "name": "Mai Stablecoin",
+            "symbol": "MAI",
+            "decimals": 18,
+            "assetId": "mimatic",
+            "assetType": "usd",
+            "protocolId": "qi-dao",
+            "isRebasing": false
+        },
+        "0xAAAac83751090C6ea42379626435f805DDF54DC8": {
+            "name": "NILE Token",
+            "symbol": "NILE",
+            "decimals": 18,
+            "assetId": "nile",
+            "assetType": "nile",
+            "protocolId": "nile",
+            "isRebasing": false
+        },
+        "0x93F4d0ab6a8B4271f4a28Db399b5E30612D21116": {
+            "name": "StakeStone Ethe",
+            "symbol": "STONE",
+            "decimals": 18,
+            "assetId": "stone",
+            "assetType": "stone",
+            "protocolId": "stakestone",
+            "isRebasing": false
+        },
+        "0x0018D96C579121a94307249d47F053E2D687b5e7": {
+            "name": "Metavault Trade",
+            "symbol": "MVX",
+            "decimals": 18,
+            "assetId": "mvx",
+            "assetType": "mvx",
+            "protocolId": "metavault-trade",
+            "isRebasing": false
+        },
+        "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747": {
+            "name": "izumi Token",
+            "symbol": "iZi",
+            "decimals": 18,
+            "assetId": "izi",
+            "assetType": "izi",
+            "protocolId": "izumi-finance",
+            "isRebasing": false
+        },
+        "0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376": {
+            "name": "USD+",
+            "symbol": "USD+",
+            "decimals": 6,
+            "assetId": "usd-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+        },
+        "0x1E1F509963A6D33e169D9497b11c7DbFe73B7F13": {
+            "name": "USDT+",
+            "symbol": "USDT+",
+            "decimals": 6,
+            "assetId": "usdt-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+        },
+        "0x808d7c71ad2ba3FA531b068a2417C63106BC0949": {
+            "name": "StargateToken",
+            "symbol": "STG",
+            "decimals": 18,
+            "assetId": "stg",
+            "assetType": "stg",
+            "protocolId": "stargate",
+            "isRebasing": false
+        },
+        "0x43E8809ea748EFf3204ee01F08872F063e44065f": {
+            "name": "Mendi Finance",
+            "symbol": "MENDI",
+            "decimals": 18,
+            "assetId": "mendi",
+            "assetType": "mendi",
+            "protocolId": "mendi-finance",
+            "isRebasing": false
+        },
+        "0x333D8b480BDB25eA7Be4Dd87EEB359988CE1b30D": {
+            "name": "Mendi USD Coin",
+            "symbol": "meUSDC",
+            "decimals": 8,
+            "assetId": "meusdc",
+            "assetType": "usd",
+            "protocolId": "mendi-finance",
+            "isRebasing": false
+        },
+        "0xf669C3C03D9fdF4339e19214A749E52616300E89": {
+            "name": "Mendi USD Tether",
+            "symbol": "meUSDT",
+            "decimals": 8,
+            "assetId": "meusdt",
+            "assetType": "usd",
+            "protocolId": "mendi-finance",
+            "isRebasing": false
+        },
+        "0x1f27f81C1D13Dd96A3b75d42e3d5d92b709869AA": {
+            "name": "Mendi Dai Stablecoin",
+            "symbol": "meDAI",
+            "decimals": 8,
+            "assetId": "medai",
+            "assetType": "usd",
+            "protocolId": "mendi-finance",
+            "isRebasing": false
+        },
+        "0xAd7f33984bed10518012013D4aB0458D37FEE6F3": {
+            "name": "Mendi Wrapped Ether",
+            "symbol": "meWETH",
+            "decimals": 8,
+            "assetId": "meweth",
+            "assetType": "eth",
+            "protocolId": "mendi-finance",
+            "isRebasing": false
+        },
+        "0x9be5e24F05bBAfC28Da814bD59284878b388a40f": {
+            "name": "Mendi Wrapped BTC",
+            "symbol": "meWBTC",
+            "decimals": 8,
+            "assetId": "mewbtc",
+            "assetType": "btc",
+            "protocolId": "mendi-finance",
+            "isRebasing": false
+        },
+        "0xCeEd853798ff1c95cEB4dC48f68394eb7A86A782": {
+            "name": "Mendi Wrapped liquid staked Ether 2.0",
+            "symbol": "mewstETH",
+            "decimals": 8,
+            "assetId": "mewsteth",
+            "assetType": "eth",
+            "protocolId": "mendi-finance",
+            "isRebasing": false
+        },
+        "0x8a90D208666Deec08123444F67Bf5B1836074a67": {
+            "name": "Mendi Renzo Restaked ETH",
+            "symbol": "meezETH",
+            "decimals": 8,
+            "assetId": "meezeth",
+            "assetType": "eth",
+            "protocolId": "mendi-finance",
+            "isRebasing": false
+        },
+        "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+            "name": "Renzo Restaked ETH",
+            "symbol": "ezETH",
+            "decimals": 18,
+            "assetId": "ezeth",
+            "assetType": "eth",
+            "protocolId": "renzo",
+            "isRebasing": false
+        },
+        "0x63bA74893621d3d12F13CEc1e86517eC3d329837": {
+            "name": "LUSD Stablecoin",
+            "symbol": "LUSD",
+            "decimals": 18,
+            "assetId": "lusd",
+            "assetType": "usd",
+            "protocolId": "liquity",
+            "isRebasing": false
+        },
+        "0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487": {
+            "name": "Gravita Debt Token",
+            "symbol": "GRAI",
+            "decimals": 18,
+            "assetId": "grai",
+            "assetType": "grai",
+            "protocolId": "gravita",
+            "isRebasing": false
+        },
+        "0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1": {
+            "name": "Linea Velocore",
+            "symbol": "LVC",
+            "decimals": 18,
+            "assetId": "lvc",
+            "assetType": "lvc",
+            "protocolId": "velocore",
+            "isRebasing": false
+        },
+        "0x6EF95B6f3b0F39508e3E04054Be96D5eE39eDE0d": {
+            "name": "Symbiosis",
+            "symbol": "SIS",
+            "decimals": 18,
+            "assetId": "sis",
+            "assetType": "sis",
+            "protocolId": "symbiosis-finance",
+            "isRebasing": false
+        },
+        "0x5FBDF89403270a1846F5ae7D113A989F850d1566": {
+            "name": "Foxy",
+            "symbol": "FOXY",
+            "decimals": 18,
+            "assetId": "foxy",
+            "assetType": "foxy",
+            "protocolId": "foxy",
+            "isRebasing": false
+        }
+    }
+}

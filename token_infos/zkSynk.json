@@ -1,0 +1,418 @@
+{
+    "tokenMap": {
+        "0x0000000000000000000000000000000000000000": {
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "decimals": 18,
+            "assetId": "eth",
+            "assetType": "eth",
+            "protocolId": "native",
+            "isRebasing": false
+        },
+        "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91": {
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "assetId": "weth",
+            "assetType": "eth",
+            "protocolId": null,
+            "isRebasing": false
+        },
+        "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4": {
+            "name": "Bridged USDC (zkSync)",
+            "symbol": "USDC.e",
+            "decimals": 6,
+            "assetId": "usdc",
+            "assetType": "usd",
+            "protocolId": "circle",
+            "isRebasing": false
+        },
+        "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4": {
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "assetId": "usdc",
+            "assetType": "usd",
+            "protocolId": "circle",
+            "isRebasing": false
+        },
+        "0x493257fD37EDB34451f62EDf8D2a0C418852bA4C": {
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "assetId": "usdt",
+            "assetType": "usd",
+            "protocolId": "tether",
+            "isRebasing": false
+        },
+        "0x4B9eb6c0b6ea15176BBF62841C6B2A8a398cb656": {
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "decimals": 18,
+            "assetId": "dai",
+            "assetType": "usd",
+            "protocolId": "maker-dao",
+            "isRebasing": false
+        },
+        "0xBBeB516fb02a01611cBBE0453Fe3c580D7281011": {
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "assetId": "wbtc",
+            "assetType": "btc",
+            "protocolId": null,
+            "isRebasing": false
+        },
+        "0x0e97C7a0F8B2C9885C8ac9fC6136e829CbC21d42": {
+            "name": "Mute.io",
+            "symbol": "MUTE",
+            "decimals": 18,
+            "assetId": "mute",
+            "assetType": "mute",
+            "protocolId": "mute",
+            "isRebasing": false
+        },
+        "0x99bBE51be7cCe6C8b84883148fD3D12aCe5787F2": {
+            "name": "Velocore",
+            "symbol": "VC",
+            "decimals": 18,
+            "assetId": "vc",
+            "assetType": "vc",
+            "protocolId": "velocore",
+            "isRebasing": false
+        },
+        "0x85D84c774CF8e9fF85342684b0E795Df72A24908": {
+            "name": "Velocore (OLD)",
+            "symbol": "VC (OLD)",
+            "decimals": 18,
+            "assetId": "vc-old",
+            "assetType": "vc-old",
+            "protocolId": "velocore",
+            "isRebasing": false
+        },
+        "0x8E86e46278518EFc1C5CEd245cBA2C7e3ef11557": {
+            "name": "USD+",
+            "symbol": "USD+",
+            "decimals": 6,
+            "assetId": "usd-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+        },
+        "0xBb8D60008A08b1828E02120F1a952D295036eF3d": {
+            "name": "USDT+",
+            "symbol": "USDT+",
+            "decimals": 6,
+            "assetId": "usdt-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+        },
+        "0x5756A28E2aAe01F600FC2C01358395F5C1f8ad3A": {
+            "name": "veSync",
+            "symbol": "VS",
+            "decimals": 18,
+            "assetId": "vs",
+            "assetType": "vs",
+            "protocolId": "vesync",
+            "isRebasing": false
+        },
+        "0xc8Ec5B0627C794de0e4ea5d97AD9A556B361d243": {
+            "name": "Whisper",
+            "symbol": "WISP",
+            "decimals": 18,
+            "assetId": "wisp",
+            "assetType": "wisp",
+            "protocolId": "whisper",
+            "isRebasing": false
+        },
+        "0x2039bb4116B4EFc145Ec4f0e2eA75012D6C0f181": {
+            "name": "Binance USD",
+            "symbol": "BUSD",
+            "decimals": 18,
+            "assetId": "busd",
+            "assetType": "usd",
+            "protocolId": "binance",
+            "isRebasing": false
+        },
+        "0x503234F203fC7Eb888EEC8513210612a43Cf6115": {
+            "name": "LUSD Stablecoin",
+            "symbol": "LUSD",
+            "decimals": 18,
+            "assetId": "lusd",
+            "assetType": "usd",
+            "protocolId": "liquity",
+            "isRebasing": false
+        },
+        "0x28a487240e4D45CfF4A2980D334CC933B7483842": {
+            "name": "Celer Network MATIC",
+            "symbol": "ceMATIC",
+            "decimals": 18,
+            "assetId": "matic",
+            "assetType": "matic",
+            "protocolId": "celer-network",
+            "isRebasing": false
+        },
+        "0x7400793aAd94C8CA801aa036357d10F5Fd0ce08f": {
+            "name": "Celer Network BNB",
+            "symbol": "ceBNB",
+            "decimals": 18,
+            "assetId": "bnb",
+            "assetType": "bnb",
+            "protocolId": "celer-network",
+            "isRebasing": false
+        },
+        "0xC8Ac6191CDc9c7bF846AD6b52aaAA7a0757eE305": {
+            "name": "Metavault Trade",
+            "symbol": "MVX",
+            "decimals": 18,
+            "assetId": "mvx",
+            "assetType": "mvx",
+            "protocolId": "metavault-trade",
+            "isRebasing": false
+        },
+        "0xdd9f72afED3631a6C85b5369D84875e6c42f1827": {
+            "name": "Symbiosis",
+            "symbol": "SIS",
+            "decimals": 18,
+            "assetId": "sis",
+            "assetType": "sis",
+            "protocolId": "symbiosis-finance",
+            "isRebasing": false
+        },
+        "0x47EF4A5641992A72CFd57b9406c9D9cefEE8e0C4": {
+            "name": "zkApes token",
+            "symbol": "ZAT",
+            "decimals": 18,
+            "assetId": "zat",
+            "assetType": "zat",
+            "protocolId": "zkapes-token",
+            "isRebasing": false
+        },
+        "0x16A9494e257703797D747540f01683952547EE5b": {
+            "name": "izumi Token",
+            "symbol": "iZi",
+            "decimals": 18,
+            "assetId": "izi",
+            "assetType": "izi",
+            "protocolId": "izumi-finance",
+            "isRebasing": false
+        },
+        "0x1382628e018010035999A1FF330447a0751aa84f": {
+            "name": "iZUMi Bond USD",
+            "symbol": "iUSD",
+            "decimals": 18,
+            "assetId": "isud",
+            "assetType": "usd",
+            "protocolId": "izumi-bond-usd",
+            "isRebasing": false
+        },
+        "0xbFB4b5616044Eded03e5b1AD75141f0D9Cb1499b": {
+            "name": "zkDoge",
+            "symbol": "ZKDOGE",
+            "decimals": 18,
+            "assetId": "zkdoge",
+            "assetType": "zkdoge",
+            "protocolId": "zkdoge",
+            "isRebasing": false
+        },
+        "0x47260090cE5e83454d5f05A0AbbB2C953835f777": {
+            "name": "SPACE",
+            "symbol": "SPACE",
+            "decimals": 18,
+            "assetId": "space",
+            "assetType": "space",
+            "protocolId": "space",
+            "isRebasing": false
+        },
+        "0x787c09494Ec8Bcb24DcAf8659E7d5D69979eE508": {
+            "name": "Maverick Token",
+            "symbol": "MAV",
+            "decimals": 18,
+            "assetId": "mav",
+            "assetType": "mav",
+            "protocolId": "maverick",
+            "isRebasing": false
+        },
+        "0x32Fd44bB869620C0EF993754c8a00Be67C464806": {
+            "name": "Rocket Pool ETH",
+            "symbol": "rETH",
+            "decimals": 18,
+            "assetId": "reth",
+            "assetType": "eth",
+            "protocolId": "rocketpool",
+            "isRebasing": false
+        },
+        "0x75Af292c1c9a37b3EA2E6041168B4E48875b9ED5": {
+            "name": "Coinbase Wrapped Staked ETH",
+            "symbol": "cbETH",
+            "decimals": 18,
+            "assetId": "cbeth",
+            "assetType": "eth",
+            "protocolId": "coinbase",
+            "isRebasing": false
+        },
+        "0x240f765Af2273B0CAb6cAff2880D6d8F8B285fa4": {
+            "name": "eZKalibur Token",
+            "symbol": "SWORD",
+            "decimals": 18,
+            "assetId": "sword",
+            "assetType": "sword",
+            "protocolId": "ezkalibur",
+            "isRebasing": false
+        },
+        "0x31C2c031fDc9d33e974f327Ab0d9883Eae06cA4A": {
+            "name": "zkSwap Finance",
+            "symbol": "ZF",
+            "decimals": 18,
+            "assetId": "zf",
+            "assetType": "zf",
+            "protocolId": "zkswap-finance",
+            "isRebasing": false
+        },
+        "0xA51710195Cdc29c43d3BeeEb6B255cFd97B3Dd88": {
+            "name": "Zks",
+            "symbol": "ZKS",
+            "decimals": 18,
+            "assetId": "zks",
+            "assetType": "zks",
+            "protocolId": "zkspace-zkswap",
+            "isRebasing": false
+        },
+        "0x016341e6Da8da66b33Fd32189328c102f32Da7CC": {
+            "name": "ZeroLend zK USDC",
+            "symbol": "z0USDC",
+            "decimals": 6,
+            "assetId": "zerolend-usdc",
+            "assetType": "usd",
+            "protocolId": "zerolend",
+            "isRebasing": true
+        },
+        "0x9ca4806fa54984Bf5dA4E280b7AA8bB821D21505": {
+            "name": "ZeroLend zK USDT",
+            "symbol": "z0USDT",
+            "decimals": 6,
+            "assetId": "zerolend-usdt",
+            "assetType": "usd",
+            "protocolId": "zerolend",
+            "isRebasing": true
+        },
+        "0x9002ecb8a06060e3b56669c6B8F18E1c3b119914": {
+            "name": "ZeroLend zK WETH",
+            "symbol": "z0WETH",
+            "decimals": 18,
+            "assetId": "zerolend-weth",
+            "assetType": "eth",
+            "protocolId": "zerolend",
+            "isRebasing": true
+        },
+        "0xb727F8e11bc417c90D4DcaF82EdA06cf590533B5": {
+            "name": "ZeroLend zK BUSD",
+            "symbol": "z0BUSD",
+            "decimals": 18,
+            "assetId": "zerolend-busd",
+            "assetType": "usd",
+            "protocolId": "zerolend",
+            "isRebasing": true
+        },
+        "0x7c65E6eC6fECeb333092e6FE69672a3475C591fB": {
+            "name": "ZeroLend zK WBTC",
+            "symbol": "z0WBTC",
+            "decimals": 8,
+            "assetId": "zerolend-wbtc",
+            "assetType": "btc",
+            "protocolId": "zerolend",
+            "isRebasing": true
+        },
+        "0x15b362768465F966F1E5983b7AE87f4C5Bf75C55": {
+            "name": "ZeroLend zK DAI",
+            "symbol": "z0DAI",
+            "decimals": 18,
+            "assetId": "zerolend-dai",
+            "assetType": "usd",
+            "protocolId": "zerolend",
+            "isRebasing": true
+        },
+        "0xE027D939f7dE6F521675907Cf086F59E4D75B876": {
+            "name": "SolarCoin on Mainnet",
+            "symbol": "SLR",
+            "decimals": 18,
+            "assetId": "slr",
+            "assetType": "slr",
+            "protocolId": "solarcoin",
+            "isRebasing": false
+        },
+        "0xed4040fD47629e7c8FBB7DA76bb50B3e7695F0f2": {
+            "name": "Holdstation",
+            "symbol": "HOLD",
+            "decimals": 18,
+            "assetId": "hold",
+            "assetType": "hold",
+            "protocolId": "holdstation",
+            "isRebasing": false
+        },
+        "0xBbD1bA24d589C319C86519646817F2F153c9B716": {
+            "name": "DeversiFi Token",
+            "symbol": "DVF",
+            "decimals": 18,
+            "assetId": "dvf",
+            "assetType": "dvf",
+            "protocolId": "rhinofi",
+            "isRebasing": false
+        },
+        "0x703b52F2b28fEbcB60E1372858AF5b18849FE867": {
+            "name": "Wrapped liquid staked Ether 2.0",
+            "symbol": "wstETH",
+            "decimals": 18,
+            "assetId": "wsteth",
+            "assetType": "eth",
+            "protocolId": "lido",
+            "isRebasing": false
+        },
+        "0x3A287a06c66f9E95a56327185cA2BDF5f031cEcD": {
+            "name": "PancakeSwap Token",
+            "symbol": "Cake",
+            "decimals": 18,
+            "assetId": "cake",
+            "assetType": "cake",
+            "protocolId": "pancakeswap",
+            "isRebasing": false
+        },
+        "0x5FC44E95eaa48F9eB84Be17bd3aC66B6A82Af709": {
+            "name": "Gravita Debt Token",
+            "symbol": "GRAI",
+            "decimals": 18,
+            "assetId": "grai",
+            "assetType": "grai",
+            "protocolId": "gravita",
+            "isRebasing": false
+        },
+        "0x43cD37CC4B9EC54833c8aC362Dd55E58bFd62b86": {
+            "name": "Curve.Fi USD Stablecoin",
+            "symbol": "crvUSD",
+            "decimals": 18,
+            "assetId": "crvusd",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+        },
+        "0xb4C1544cb4163f4C2ECa1aE9Ce999F63892d912A": {
+            "name": "Frax",
+            "symbol": "FRAX",
+            "decimals": 18,
+            "assetId": "frax",
+            "assetType": "usd",
+            "protocolId": "frax",
+            "isRebasing": false
+        },
+        "0xa995ad25Ce5eB76972ab356168f5e1D9257E4d05": {
+            "name": "Koi",
+            "symbol": "KOI",
+            "decimals": 18,
+            "assetId": "koi",
+            "assetType": "koi",
+            "protocolId": "koi",
+            "isRebasing": false
+        }
+    }
+}

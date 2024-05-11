@@ -1,0 +1,292 @@
+{
+    "tokenMap": {
+        "0x0000000000000000000000000000000000000000": {
+            "name": "Mantle",
+            "symbol": "MNT",
+            "decimals": 18,
+            "assetId": "mnt",
+            "assetType": "mnt",
+            "protocolId": "native",
+            "isRebasing": false
+        },
+        "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8": {
+            "name": "Wrapped Mantle",
+            "symbol": "WMNT",
+            "decimals": 18,
+            "assetId": "wmnt",
+            "assetType": "mnt",
+            "protocolId": "mantle",
+            "isRebasing": false
+        },
+        "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111": {
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "assetId": "weth",
+            "assetType": "eth",
+            "protocolId": null,
+            "isRebasing": false
+        },
+        "0xcDA86A272531e8640cD7F1a92c01839911B90bb0": {
+            "name": "mETH",
+            "symbol": "mETH",
+            "decimals": 18,
+            "assetId": "meth",
+            "assetType": "eth",
+            "protocolId": null,
+            "isRebasing": false
+        },
+        "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9": {
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "assetId": "usdc",
+            "assetType": "usd",
+            "protocolId": "circle",
+            "isRebasing": false
+        },
+        "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE": {
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "assetId": "usdt",
+            "assetType": "usd",
+            "protocolId": "tether",
+            "isRebasing": false
+        },
+        "0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2": {
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "assetId": "wbtc",
+            "assetType": "btc",
+            "protocolId": null,
+            "isRebasing": false
+        },
+        "0x458ed78EB972a369799fb278c0243b25e5242A83": {
+            "name": "Wrapped liquid staked Ether 2.0",
+            "symbol": "wstETH",
+            "decimals": 18,
+            "assetId": "wsteth",
+            "assetType": "eth",
+            "protocolId": "lido",
+            "isRebasing": false
+        },
+        "0xEB466342C4d449BC9f53A865D5Cb90586f405215": {
+            "name": "Axelar Wrapped USDC",
+            "symbol": "axlUSDC",
+            "decimals": 6,
+            "assetId": "axlusdc",
+            "assetType": "usd",
+            "protocolId": "axelar",
+            "isRebasing": false
+        },
+        "0xb829b68f57CC546dA7E5806A929e53bE32a4625D": {
+            "name": "Axelar Wrapped ETH",
+            "symbol": "axlETH",
+            "decimals": 18,
+            "assetId": "axleth",
+            "assetType": "eth",
+            "protocolId": "axelar",
+            "isRebasing": false
+        },
+        "0x406Cde76a3fD20e48bc1E0F60651e60Ae204B040": {
+            "name": "Axelar Wrapped FRAX",
+            "symbol": "axlFRAX",
+            "decimals": 18,
+            "assetId": "axlfrax",
+            "assetType": "usd",
+            "protocolId": "axelar",
+            "isRebasing": false
+        },
+        "0x4515A45337F461A11Ff0FE8aBF3c606AE5dC00c9": {
+            "name": "Moe Token",
+            "symbol": "MOE",
+            "decimals": 18,
+            "assetId": "moe",
+            "assetType": "moe",
+            "protocolId": "merchant-moe",
+            "isRebasing": false
+        },
+        "0xf93a85d53e4aF0D62bdf3A83CCFc1EcF3EAf9F32": {
+            "name": "LUSD Stablecoin",
+            "symbol": "LUSD",
+            "decimals": 18,
+            "assetId": "lusd",
+            "assetType": "usd",
+            "protocolId": "liquity",
+            "isRebasing": false
+        },
+        "0xD2B4C9B0d70e3Da1fBDD98f469bD02E77E12FC79": {
+            "name": "Aurelius USD",
+            "symbol": "aUSD",
+            "decimals": 18,
+            "assetId": "ausd",
+            "assetType": "usd",
+            "protocolId": "aurelius",
+            "isRebasing": false
+        },
+        "0x51cfe5b1E764dC253F4c8C1f19a081fF4C3517eD": {
+            "name": "Mantle Inu Token",
+            "symbol": "MINU",
+            "decimals": 18,
+            "assetId": "minu",
+            "assetType": "minu",
+            "protocolId": "mantle-inu",
+            "isRebasing": false
+        },
+        "0xC1E0C8C30F251A07a894609616580ad2CEb547F2": {
+            "name": "Cleopatra",
+            "symbol": "CLEO",
+            "decimals": 18,
+            "assetId": "cleo",
+            "assetType": "cleo",
+            "protocolId": "cleopatra",
+            "isRebasing": false
+        },
+        "0x8309Bc8BB43fB54dB02DA7d8bf87192355532829": {
+            "name": "Swapsicle SLUSH Token",
+            "symbol": "SLUSH",
+            "decimals": 18,
+            "assetId": "slush",
+            "assetType": "slush",
+            "protocolId": "swapsicle",
+            "isRebasing": false
+        },
+        "0x861A6Fc736Cbb12ad57477B535B829239c8347d7": {
+            "name": "VelociMantle",
+            "symbol": "MVM",
+            "decimals": 18,
+            "assetId": "mvm",
+            "assetType": "mvm",
+            "protocolId": "velocimeter",
+            "isRebasing": false
+        },
+        "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747": {
+            "name": "izumi Token",
+            "symbol": "iZi",
+            "decimals": 18,
+            "assetId": "izi",
+            "assetType": "izi",
+            "protocolId": "izumi-finance",
+            "isRebasing": false
+        },
+        "0x5bE26527e817998A7206475496fDE1E68957c5A6": {
+            "name": "Ondo U.S. Dollar Yield",
+            "symbol": "USDY",
+            "decimals": 18,
+            "assetId": "usdy",
+            "assetType": "usd",
+            "protocolId": "ondo-finance",
+            "isRebasing": false
+        },
+        "0x5a093a9c4f440c6b105F0AF7f7C4f1fBE45567f9": {
+            "name": "Stratum",
+            "symbol": "STRAT",
+            "decimals": 18,
+            "assetId": "strat",
+            "assetType": "strat",
+            "protocolId": "stratum-exchange",
+            "isRebasing": false
+        },
+        "0x25356aeca4210eF7553140edb9b8026089E49396": {
+            "name": "Lendle Protocol Token",
+            "symbol": "LEND",
+            "decimals": 18,
+            "assetId": "lend",
+            "assetType": "lend",
+            "protocolId": "lendle",
+            "isRebasing": false
+        },
+        "0xF36AFb467D1f05541d998BBBcd5F7167D67bd8fC": {
+            "name": "Lendle Mantle Market USDC",
+            "symbol": "lvUSDC",
+            "decimals": 6,
+            "assetId": "lendle-usdc",
+            "assetType": "usd",
+            "protocolId": "lendle",
+            "isRebasing": true
+        },
+        "0xE71cbaaa6B093FcE66211E6f218780685077D8B5": {
+            "name": "Lendle Mantle Market USDT",
+            "symbol": "lvUSDT",
+            "decimals": 6,
+            "assetId": "lendle-usdt",
+            "assetType": "usd",
+            "protocolId": "lendle",
+            "isRebasing": true
+        },
+        "0x44CCCBbD7A5A9e2202076ea80C185DA0058f1715": {
+            "name": "Lendle Mantle Market WBTC",
+            "symbol": "lvWBTC",
+            "decimals": 8,
+            "assetId": "lendle-wbtc",
+            "assetType": "btc",
+            "protocolId": "lendle",
+            "isRebasing": true
+        },
+        "0x787Cb0D29194f0fAcA73884C383CF4d2501bb874": {
+            "name": "Lendle Mantle Market WETH",
+            "symbol": "lvWETH",
+            "decimals": 18,
+            "assetId": "lendle-weth",
+            "assetType": "eth",
+            "protocolId": "lendle",
+            "isRebasing": true
+        },
+        "0x683696523512636B46A826A7e3D1B0658E8e2e1c": {
+            "name": "Lendle Mantle Market WMNT",
+            "symbol": "lvWMNT",
+            "decimals": 18,
+            "assetId": "lendle-wmnt",
+            "assetType": "mnt",
+            "protocolId": "lendle",
+            "isRebasing": true
+        },
+        "0x0e927Aa52A38783C1Fd5DfA5c8873cbdBd01D2Ca": {
+            "name": "Lendle Mantle Market METH",
+            "symbol": "lvMETH",
+            "decimals": 18,
+            "assetId": "lendle-meth",
+            "assetType": "eth",
+            "protocolId": "lendle",
+            "isRebasing": true
+        },
+        "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
+            "name": "USDe",
+            "symbol": "USDe",
+            "decimals": 18,
+            "assetId": "usde",
+            "assetType": "usd",
+            "protocolId": "ethena",
+            "isRebasing": false
+        },
+        "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07": {
+            "name": "JoeToken",
+            "symbol": "JOE",
+            "decimals": 18,
+            "assetId": "joe",
+            "assetType": "joe",
+            "protocolId": "trader-joe",
+            "isRebasing": false
+        },
+        "0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487": {
+            "name": "Gravita Debt Token",
+            "symbol": "GRAI",
+            "decimals": 18,
+            "assetId": "grai",
+            "assetType": "grai",
+            "protocolId": "gravita",
+            "isRebasing": false
+        },
+        "0x26a6b0dcdCfb981362aFA56D581e4A7dBA3Be140": {
+            "name": "Puff",
+            "symbol": "PUFF",
+            "decimals": 18,
+            "assetId": "puff",
+            "assetType": "puff",
+            "protocolId": "puff-the-dragon",
+            "isRebasing": false
+        }
+    }
+}
