@@ -171,10 +171,13 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
             function financial(x) {
                 return Number.parseFloat(x).toFixed(4);
             }
-            if (i === 0) {
-                console.log(from_chain, ":", amount, input_token, "=>", financial(from_output_token_amount), output_token, "\n");
-            }
-            console.log("              ", to_chain[i], ":", financial(from_output_token_amount), output_token, "=>", financial(to_output_token_amount), input_token, "\n");
+            // if (i === 0) {
+            //     console.log(from_chain, ":", amount, input_token, "=>", financial(from_output_token_amount), output_token, "\n");
+            // }
+            // console.log("              ", to_chain[i], ":", financial(from_output_token_amount), output_token, "=>", financial(to_output_token_amount), input_token, "\n");
+            let token_amount_color = "color:yellow";
+
+            console.log("\x1b[36m", from_chain, "\x1b[37m", "=>", "\x1b[36m", to_chain[i], "\n", "\x1b[33m", amount, "\x1b[32m", input_token, "\x1b[37m", "=>", "\x1b[33m", financial(from_output_token_amount), "\x1b[32m", output_token, "\n", "\x1b[33m", financial(from_output_token_amount), "\x1b[32m", output_token, "\x1b[37m", "=>", "\x1b[33m", financial(to_output_token_amount), "\x1b[32m", input_token, "\n", "\x1b[37m", "-------------------------------------------------------------------------------");
         }
 
     }
