@@ -36,6 +36,7 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
         const proportion = 1;
         const referralCode = 0;
         const slippageLimitPercent = 0.3;
+        const disableRFQs = false
         const sourceBlacklist = [];
         const sourceWhitelist = [];
         const userAddr = "0x47E2D28169738039755586743E2dfCF3bd643f86";
@@ -58,6 +59,7 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
         ]
         first_swap_schema["referralCode"] = referralCode;
         first_swap_schema["slippageLimitPercent"] = slippageLimitPercent;
+        first_swap_schema["disableRFQs"] = disableRFQs;
         first_swap_schema["sourceBlacklist"] = sourceBlacklist;
         first_swap_schema["sourceWhitelist"] = sourceWhitelist;
         first_swap_schema["userAddr"] = userAddr;
