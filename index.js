@@ -64,7 +64,7 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
         first_swap_schema["sourceWhitelist"] = sourceWhitelist;
         first_swap_schema["userAddr"] = userAddr;
 
-        await sleep(300);
+        await sleep(600);
 
         const first_swap_response = await fetch('https://api.odos.xyz/sor/quote/v2',
             {
@@ -146,7 +146,7 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
             second_swap_schema["sourceWhitelist"] = sourceWhitelist;
             second_swap_schema["userAddr"] = userAddr;
 
-            await sleep(600);
+            await sleep(300);
 
             const second_swap_response = await fetch('https://api.odos.xyz/sor/quote/v2',
                 {
